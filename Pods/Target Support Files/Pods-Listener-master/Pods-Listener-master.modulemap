@@ -1,0 +1,6 @@
+framework module Pods_Listener_master {
+  umbrella header "Pods-Listener-master-umbrella.h"
+
+  export *
+  module * { export * }
+}
