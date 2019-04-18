@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		2CE3B2C884F25631B74ABCC4 /* Pods_Listener_master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5DE4BFE15FDAA628BC0FAE /* Pods_Listener_master.framework */; };
-		505544EA22671FBC0054A219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505544E922671FBC0054A219 /* AppDelegate.swift */; };
-		505544EC22671FBC0054A219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505544EB22671FBC0054A219 /* ViewController.swift */; };
 		505544EF22671FBC0054A219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505544ED22671FBC0054A219 /* Main.storyboard */; };
 		505544F122671FBF0054A219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505544F022671FBF0054A219 /* Assets.xcassets */; };
 		505544F422671FBF0054A219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505544F222671FBF0054A219 /* LaunchScreen.storyboard */; };
+		505545012268242B0054A219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505544FF2268242B0054A219 /* ViewController.swift */; };
+		505545022268242B0054A219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505545002268242B0054A219 /* AppDelegate.swift */; };
+		50554504226824460054A219 /* LKHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50554503226824460054A219 /* LKHeader.swift */; };
+		5055450C226826A60054A219 /* LKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055450B226826A60054A219 /* LKNavigationController.swift */; };
+		505545142268276C0054A219 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055450E2268276C0054A219 /* WRNavigationBar.swift */; };
+		505545152268276C0054A219 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055450F2268276C0054A219 /* WRCustomNavigationBar.swift */; };
+		505545162268276C0054A219 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505545112268276C0054A219 /* WRProxy.swift */; };
+		505545172268276C0054A219 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505545122268276C0054A219 /* WRCycleScrollView.swift */; };
+		505545182268276C0054A219 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505545132268276C0054A219 /* WRCycleCell.swift */; };
+		5055451A22682C2C0054A219 /* LKBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451922682C2C0054A219 /* LKBasicContentView.swift */; };
+		5055451C2268406A0054A219 /* LKBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451B2268406A0054A219 /* LKBouncesContentView.swift */; };
+		5055451E226842960054A219 /* LKPlayBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451D226842960054A219 /* LKPlayBasicContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		505544E622671FBC0054A219 /* Listener-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listener-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		505544E922671FBC0054A219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		505544EB22671FBC0054A219 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		505544EE22671FBC0054A219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		505544F022671FBF0054A219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505544F322671FBF0054A219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		505544F522671FBF0054A219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505544FF2268242B0054A219 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		505545002268242B0054A219 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50554503226824460054A219 /* LKHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHeader.swift; sourceTree = "<group>"; };
+		5055450B226826A60054A219 /* LKNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKNavigationController.swift; sourceTree = "<group>"; };
+		5055450E2268276C0054A219 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		5055450F2268276C0054A219 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		505545112268276C0054A219 /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		505545122268276C0054A219 /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
+		505545132268276C0054A219 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
+		5055451922682C2C0054A219 /* LKBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBasicContentView.swift; sourceTree = "<group>"; };
+		5055451B2268406A0054A219 /* LKBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBouncesContentView.swift; sourceTree = "<group>"; };
+		5055451D226842960054A219 /* LKPlayBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPlayBasicContentView.swift; sourceTree = "<group>"; };
 		D137A9B87E8231A70C11C9D2 /* Pods-Listener-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listener-master.debug.xcconfig"; path = "Target Support Files/Pods-Listener-master/Pods-Listener-master.debug.xcconfig"; sourceTree = "<group>"; };
 		E2B3E07FCCC2D923D0E4523A /* Pods-Listener-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listener-master.release.xcconfig"; path = "Target Support Files/Pods-Listener-master/Pods-Listener-master.release.xcconfig"; sourceTree = "<group>"; };
 		FC5DE4BFE15FDAA628BC0FAE /* Pods_Listener_master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Listener_master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,14 +81,120 @@
 		505544E822671FBC0054A219 /* Listener-master */ = {
 			isa = PBXGroup;
 			children = (
-				505544E922671FBC0054A219 /* AppDelegate.swift */,
-				505544EB22671FBC0054A219 /* ViewController.swift */,
+				505544FE2268242B0054A219 /* AppDelegate */,
+				505544FC2268242B0054A219 /* Common */,
+				505544FB2268242B0054A219 /* Controller */,
+				505544FD2268242B0054A219 /* Lib */,
 				505544ED22671FBC0054A219 /* Main.storyboard */,
 				505544F022671FBF0054A219 /* Assets.xcassets */,
 				505544F222671FBF0054A219 /* LaunchScreen.storyboard */,
 				505544F522671FBF0054A219 /* Info.plist */,
 			);
 			path = "Listener-master";
+			sourceTree = "<group>";
+		};
+		505544FB2268242B0054A219 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50554505226826670054A219 /* Main */,
+				50554506226826690054A219 /* Home */,
+				50554509226826690054A219 /* Find */,
+				5055450A226826690054A219 /* Listen */,
+				50554507226826690054A219 /* Mine */,
+				50554508226826690054A219 /* Play */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		505544FC2268242B0054A219 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				50554503226824460054A219 /* LKHeader.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		505544FD2268242B0054A219 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5055450D2268276C0054A219 /* WRNavigationBar */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		505544FE2268242B0054A219 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				505544FF2268242B0054A219 /* ViewController.swift */,
+				505545002268242B0054A219 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		50554505226826670054A219 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5055450B226826A60054A219 /* LKNavigationController.swift */,
+				5055451922682C2C0054A219 /* LKBasicContentView.swift */,
+				5055451B2268406A0054A219 /* LKBouncesContentView.swift */,
+				5055451D226842960054A219 /* LKPlayBasicContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		50554506226826690054A219 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		50554507226826690054A219 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		50554508226826690054A219 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		50554509226826690054A219 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		5055450A226826690054A219 /* Listen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Listen;
+			sourceTree = "<group>";
+		};
+		5055450D2268276C0054A219 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				5055450E2268276C0054A219 /* WRNavigationBar.swift */,
+				5055450F2268276C0054A219 /* WRCustomNavigationBar.swift */,
+				505545102268276C0054A219 /* WRCycleScrollView */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		505545102268276C0054A219 /* WRCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				505545112268276C0054A219 /* WRProxy.swift */,
+				505545122268276C0054A219 /* WRCycleScrollView.swift */,
+				505545132268276C0054A219 /* WRCycleCell.swift */,
+			);
+			path = WRCycleScrollView;
 			sourceTree = "<group>";
 		};
 		65FE6584C6D4015328FF283B /* Frameworks */ = {
@@ -85,7 +211,6 @@
 				D137A9B87E8231A70C11C9D2 /* Pods-Listener-master.debug.xcconfig */,
 				E2B3E07FCCC2D923D0E4523A /* Pods-Listener-master.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -239,8 +364,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505544EC22671FBC0054A219 /* ViewController.swift in Sources */,
-				505544EA22671FBC0054A219 /* AppDelegate.swift in Sources */,
+				5055451A22682C2C0054A219 /* LKBasicContentView.swift in Sources */,
+				5055451C2268406A0054A219 /* LKBouncesContentView.swift in Sources */,
+				505545142268276C0054A219 /* WRNavigationBar.swift in Sources */,
+				505545152268276C0054A219 /* WRCustomNavigationBar.swift in Sources */,
+				5055451E226842960054A219 /* LKPlayBasicContentView.swift in Sources */,
+				505545022268242B0054A219 /* AppDelegate.swift in Sources */,
+				505545012268242B0054A219 /* ViewController.swift in Sources */,
+				505545182268276C0054A219 /* WRCycleCell.swift in Sources */,
+				5055450C226826A60054A219 /* LKNavigationController.swift in Sources */,
+				505545172268276C0054A219 /* WRCycleScrollView.swift in Sources */,
+				50554504226824460054A219 /* LKHeader.swift in Sources */,
+				505545162268276C0054A219 /* WRProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +459,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -378,6 +514,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -396,7 +533,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mingriweiji-github.Listener-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -415,7 +552,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mingriweiji-github.Listener-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

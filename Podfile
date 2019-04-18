@@ -1,6 +1,17 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
 
+swift_41_pod_targets = ['Listener-master','SwiftMessages']
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if swift_41_pod_targets.include?(target.name)
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '4.2'
+      end
+    end
+  end
+end
+
 target 'Listener-master' do
   use_frameworks!
   # 忽略引入库的所有警告
@@ -10,7 +21,6 @@ target 'Listener-master' do
   pod 'SnapKit'
   #A lightweight, pure-Swift library for downloading and caching images from the web.
   pod 'Kingfisher'
-  
   #A handy swift json-object serialization/deserialization library
   pod 'HandyJSON', '~> 5.0.0-beta.1'
   #The better way to deal with JSON data in Swift.
@@ -29,7 +39,7 @@ target 'Listener-master' do
   #滚动页
   pod 'LTScrollView'
   #消息提示
-  pod 'SwiftMessages','~> 4.1.4'
+  pod 'SwiftMessages'
   #播放网络音频
   pod 'StreamingKit'
   
