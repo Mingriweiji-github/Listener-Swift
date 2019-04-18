@@ -14,10 +14,13 @@ import SwiftMessages
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let tabbar = self.setupTabbarStyle(delegate: self as? UITabBarControllerDelegate)
+        self.window?.backgroundColor = UIColor.white
+        self.window?.rootViewController = tabbar
+        self.window?.makeKeyAndVisible()
         
         return true
     }
@@ -25,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setupTabbarStyle(delegate: UITabBarControllerDelegate?) -> ESTabBarController {
         let tabBarController = ESTabBarController()
         tabBarController.delegate = delegate
-        tabBarController.title = "HH"
+        tabBarController.title = "Irregularity"
         tabBarController.tabBar.shadowImage = UIImage(named: "transparent")
         tabBarController.shouldHijackHandler = {
             tabBarController,ViewController,index in
@@ -57,13 +60,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mine = LKMineController()
         let listen = LKListenController()
         
-        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"), tag: 0)
-        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "我听", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"), tag: 1)
+        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "我听", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        //特殊item
+        home.tabBarItem = ESTabBarItem.init(LKIrregularityContentView(), title: nil, image: UIImage(named: "tab_play"), selectedImage: UIImage(named: "tab_play"))
         
-        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: nil, image: UIImage(named: "tab_play"), selectedImage: UIImage(named: "tab_play"), tag: 3)
-        
-        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "发现", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"), tag: 4)
-        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "我的", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"), tag: 5)
+        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "发现", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
+        home.tabBarItem = ESTabBarItem.init(LKIrregularityBasicContentView(), title: "我的", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
         
         let homeNav = LKNavigationController.init(rootViewController: home)
         let listneNav = LKNavigationController.init(rootViewController: listen)

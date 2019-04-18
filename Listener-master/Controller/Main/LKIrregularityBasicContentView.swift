@@ -28,7 +28,8 @@ class LKIrregularityContentView: ESTabBarItemContentView {
         //设置Play barItem
         self.imageView.backgroundColor = UIColor.init(red: 250/255.0, green: 48/255.0, blue: 32/255.0, alpha: 1.0)
         self.imageView.layer.borderWidth = 2.0
-        self.imageView.layer.borderWidth = UIColor.init(white: 235 / 255.0, alpha: 1.0).cgColor as! CGFloat
+        self.imageView.layer.borderColor = UIColor.init(white: 235 / 255.0, alpha: 1.0).cgColor;
+        
         self.imageView.layer.cornerRadius = 25
         self.insets = UIEdgeInsets.init(top: -23, left: 0, bottom: 0, right: 0)
         let transform = CGAffineTransform.identity
