@@ -9,7 +9,7 @@
 import UIKit
 import ESTabBarController_swift
 
-class LKPlayBasicContentView: LKBouncesContentView {
+class LKIrregularityBasicContentView: LKBouncesContentView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         textColor = UIColor.init(white: 175.0 / 255.0, alpha: 1.0)
@@ -22,7 +22,7 @@ class LKPlayBasicContentView: LKBouncesContentView {
     }
 }
 
-class LKPlayContentView: ESTabBarItemContentView {
+class LKIrregularityContentView: ESTabBarItemContentView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         //设置Play barItem

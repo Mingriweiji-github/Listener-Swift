@@ -22,7 +22,17 @@
 		505545182268276C0054A219 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505545132268276C0054A219 /* WRCycleCell.swift */; };
 		5055451A22682C2C0054A219 /* LKBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451922682C2C0054A219 /* LKBasicContentView.swift */; };
 		5055451C2268406A0054A219 /* LKBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451B2268406A0054A219 /* LKBouncesContentView.swift */; };
-		5055451E226842960054A219 /* LKPlayBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451D226842960054A219 /* LKPlayBasicContentView.swift */; };
+		5055451E226842960054A219 /* LKIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055451D226842960054A219 /* LKIrregularityBasicContentView.swift */; };
+		50A03CA522685AF9009A86F6 /* LKHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CA422685AF9009A86F6 /* LKHomeController.swift */; };
+		50A03CBF22685D24009A86F6 /* LKHomeRecommandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CBE22685D24009A86F6 /* LKHomeRecommandController.swift */; };
+		50A03CCB22685ECF009A86F6 /* LKHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CCA22685ECF009A86F6 /* LKHomeVIPController.swift */; };
+		50A03CCD22685EEC009A86F6 /* LKHomeLiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CCC22685EEC009A86F6 /* LKHomeLiveController.swift */; };
+		50A03CCF22685F29009A86F6 /* LKHomeClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CCE22685F29009A86F6 /* LKHomeClassifyController.swift */; };
+		50A03CD122685FC4009A86F6 /* LKHomeBroadCastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD022685FC4009A86F6 /* LKHomeBroadCastController.swift */; };
+		50A03CD32268604F009A86F6 /* LKFindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD22268604F009A86F6 /* LKFindController.swift */; };
+		50A03CD52268607D009A86F6 /* LKListenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD42268607D009A86F6 /* LKListenController.swift */; };
+		50A03CD7226860A4009A86F6 /* LKMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD6226860A4009A86F6 /* LKMineController.swift */; };
+		50A03CD922686914009A86F6 /* LKPlayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD822686914009A86F6 /* LKPlayContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +52,17 @@
 		505545132268276C0054A219 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
 		5055451922682C2C0054A219 /* LKBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBasicContentView.swift; sourceTree = "<group>"; };
 		5055451B2268406A0054A219 /* LKBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBouncesContentView.swift; sourceTree = "<group>"; };
-		5055451D226842960054A219 /* LKPlayBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPlayBasicContentView.swift; sourceTree = "<group>"; };
+		5055451D226842960054A219 /* LKIrregularityBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKIrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		50A03CA422685AF9009A86F6 /* LKHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeController.swift; sourceTree = "<group>"; };
+		50A03CBE22685D24009A86F6 /* LKHomeRecommandController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeRecommandController.swift; sourceTree = "<group>"; };
+		50A03CCA22685ECF009A86F6 /* LKHomeVIPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeVIPController.swift; sourceTree = "<group>"; };
+		50A03CCC22685EEC009A86F6 /* LKHomeLiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeLiveController.swift; sourceTree = "<group>"; };
+		50A03CCE22685F29009A86F6 /* LKHomeClassifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeClassifyController.swift; sourceTree = "<group>"; };
+		50A03CD022685FC4009A86F6 /* LKHomeBroadCastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeBroadCastController.swift; sourceTree = "<group>"; };
+		50A03CD22268604F009A86F6 /* LKFindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKFindController.swift; sourceTree = "<group>"; };
+		50A03CD42268607D009A86F6 /* LKListenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKListenController.swift; sourceTree = "<group>"; };
+		50A03CD6226860A4009A86F6 /* LKMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKMineController.swift; sourceTree = "<group>"; };
+		50A03CD822686914009A86F6 /* LKPlayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPlayContentView.swift; sourceTree = "<group>"; };
 		D137A9B87E8231A70C11C9D2 /* Pods-Listener-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listener-master.debug.xcconfig"; path = "Target Support Files/Pods-Listener-master/Pods-Listener-master.debug.xcconfig"; sourceTree = "<group>"; };
 		E2B3E07FCCC2D923D0E4523A /* Pods-Listener-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listener-master.release.xcconfig"; path = "Target Support Files/Pods-Listener-master/Pods-Listener-master.release.xcconfig"; sourceTree = "<group>"; };
 		FC5DE4BFE15FDAA628BC0FAE /* Pods_Listener_master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Listener_master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,7 +157,7 @@
 				5055450B226826A60054A219 /* LKNavigationController.swift */,
 				5055451922682C2C0054A219 /* LKBasicContentView.swift */,
 				5055451B2268406A0054A219 /* LKBouncesContentView.swift */,
-				5055451D226842960054A219 /* LKPlayBasicContentView.swift */,
+				5055451D226842960054A219 /* LKIrregularityBasicContentView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -145,6 +165,12 @@
 		50554506226826690054A219 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				50A03CA422685AF9009A86F6 /* LKHomeController.swift */,
+				50A03CB222685CF3009A86F6 /* 推荐 */,
+				50A03CAC22685CF3009A86F6 /* 分类 */,
+				50A03CA622685CF3009A86F6 /* 广播 */,
+				50A03CC422685E8A009A86F6 /* VIP */,
+				50A03CB822685CF3009A86F6 /* 直播 */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -152,6 +178,7 @@
 		50554507226826690054A219 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				50A03CD6226860A4009A86F6 /* LKMineController.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -159,6 +186,7 @@
 		50554508226826690054A219 /* Play */ = {
 			isa = PBXGroup;
 			children = (
+				50A03CD822686914009A86F6 /* LKPlayContentView.swift */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -166,6 +194,7 @@
 		50554509226826690054A219 /* Find */ = {
 			isa = PBXGroup;
 			children = (
+				50A03CD22268604F009A86F6 /* LKFindController.swift */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -173,6 +202,7 @@
 		5055450A226826690054A219 /* Listen */ = {
 			isa = PBXGroup;
 			children = (
+				50A03CD42268607D009A86F6 /* LKListenController.swift */,
 			);
 			path = Listen;
 			sourceTree = "<group>";
@@ -195,6 +225,247 @@
 				505545132268276C0054A219 /* WRCycleCell.swift */,
 			);
 			path = WRCycleScrollView;
+			sourceTree = "<group>";
+		};
+		50A03CA622685CF3009A86F6 /* 广播 */ = {
+			isa = PBXGroup;
+			children = (
+				50A03CA722685CF3009A86F6 /* VIewModel */,
+				50A03CA822685CF3009A86F6 /* Controller */,
+				50A03CA922685CF3009A86F6 /* Model */,
+				50A03CAA22685CF3009A86F6 /* View */,
+				50A03CAB22685CF3009A86F6 /* AIP */,
+				50A03CD022685FC4009A86F6 /* LKHomeBroadCastController.swift */,
+			);
+			path = "广播";
+			sourceTree = "<group>";
+		};
+		50A03CA722685CF3009A86F6 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		50A03CA822685CF3009A86F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A03CA922685CF3009A86F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50A03CAA22685CF3009A86F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50A03CAB22685CF3009A86F6 /* AIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AIP;
+			sourceTree = "<group>";
+		};
+		50A03CAC22685CF3009A86F6 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				50A03CAD22685CF3009A86F6 /* VIewModel */,
+				50A03CAE22685CF3009A86F6 /* Controller */,
+				50A03CAF22685CF3009A86F6 /* Model */,
+				50A03CB022685CF3009A86F6 /* View */,
+				50A03CB122685CF3009A86F6 /* AIP */,
+				50A03CCE22685F29009A86F6 /* LKHomeClassifyController.swift */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		50A03CAD22685CF3009A86F6 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		50A03CAE22685CF3009A86F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A03CAF22685CF3009A86F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50A03CB022685CF3009A86F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50A03CB122685CF3009A86F6 /* AIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AIP;
+			sourceTree = "<group>";
+		};
+		50A03CB222685CF3009A86F6 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				50A03CBE22685D24009A86F6 /* LKHomeRecommandController.swift */,
+				50A03CB422685CF3009A86F6 /* Controller */,
+				50A03CB322685CF3009A86F6 /* VIewModel */,
+				50A03CB522685CF3009A86F6 /* Model */,
+				50A03CB622685CF3009A86F6 /* View */,
+				50A03CB722685CF3009A86F6 /* AIP */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		50A03CB322685CF3009A86F6 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		50A03CB422685CF3009A86F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A03CB522685CF3009A86F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50A03CB622685CF3009A86F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50A03CB722685CF3009A86F6 /* AIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AIP;
+			sourceTree = "<group>";
+		};
+		50A03CB822685CF3009A86F6 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				50A03CB922685CF3009A86F6 /* VIewModel */,
+				50A03CBA22685CF3009A86F6 /* Controller */,
+				50A03CBB22685CF3009A86F6 /* Model */,
+				50A03CBC22685CF3009A86F6 /* View */,
+				50A03CBD22685CF3009A86F6 /* AIP */,
+				50A03CCC22685EEC009A86F6 /* LKHomeLiveController.swift */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		50A03CB922685CF3009A86F6 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		50A03CBA22685CF3009A86F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A03CBB22685CF3009A86F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50A03CBC22685CF3009A86F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50A03CBD22685CF3009A86F6 /* AIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AIP;
+			sourceTree = "<group>";
+		};
+		50A03CC422685E8A009A86F6 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				50A03CC522685E8A009A86F6 /* VIewModel */,
+				50A03CC622685E8A009A86F6 /* Controller */,
+				50A03CC722685E8A009A86F6 /* Model */,
+				50A03CC822685E8A009A86F6 /* View */,
+				50A03CC922685E8A009A86F6 /* AIP */,
+				50A03CCA22685ECF009A86F6 /* LKHomeVIPController.swift */,
+			);
+			name = VIP;
+			path = "Listener-master/Controller/Home/VIP";
+			sourceTree = SOURCE_ROOT;
+		};
+		50A03CC522685E8A009A86F6 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		50A03CC622685E8A009A86F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A03CC722685E8A009A86F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50A03CC822685E8A009A86F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50A03CC922685E8A009A86F6 /* AIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AIP;
 			sourceTree = "<group>";
 		};
 		65FE6584C6D4015328FF283B /* Frameworks */ = {
@@ -366,14 +637,24 @@
 			files = (
 				5055451A22682C2C0054A219 /* LKBasicContentView.swift in Sources */,
 				5055451C2268406A0054A219 /* LKBouncesContentView.swift in Sources */,
+				50A03CD32268604F009A86F6 /* LKFindController.swift in Sources */,
+				50A03CBF22685D24009A86F6 /* LKHomeRecommandController.swift in Sources */,
 				505545142268276C0054A219 /* WRNavigationBar.swift in Sources */,
 				505545152268276C0054A219 /* WRCustomNavigationBar.swift in Sources */,
-				5055451E226842960054A219 /* LKPlayBasicContentView.swift in Sources */,
+				5055451E226842960054A219 /* LKIrregularityBasicContentView.swift in Sources */,
 				505545022268242B0054A219 /* AppDelegate.swift in Sources */,
 				505545012268242B0054A219 /* ViewController.swift in Sources */,
+				50A03CCF22685F29009A86F6 /* LKHomeClassifyController.swift in Sources */,
+				50A03CD122685FC4009A86F6 /* LKHomeBroadCastController.swift in Sources */,
+				50A03CD922686914009A86F6 /* LKPlayContentView.swift in Sources */,
 				505545182268276C0054A219 /* WRCycleCell.swift in Sources */,
 				5055450C226826A60054A219 /* LKNavigationController.swift in Sources */,
+				50A03CD52268607D009A86F6 /* LKListenController.swift in Sources */,
 				505545172268276C0054A219 /* WRCycleScrollView.swift in Sources */,
+				50A03CCD22685EEC009A86F6 /* LKHomeLiveController.swift in Sources */,
+				50A03CA522685AF9009A86F6 /* LKHomeController.swift in Sources */,
+				50A03CCB22685ECF009A86F6 /* LKHomeVIPController.swift in Sources */,
+				50A03CD7226860A4009A86F6 /* LKMineController.swift in Sources */,
 				50554504226824460054A219 /* LKHeader.swift in Sources */,
 				505545162268276C0054A219 /* WRProxy.swift in Sources */,
 			);
