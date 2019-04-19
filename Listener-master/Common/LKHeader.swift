@@ -20,7 +20,7 @@ let kButtonColor = UIColor(red: 242/255.0, green: 77/255.0, blue: 51/255.0, alph
 let kDownColor = UIColor(red: 240/255.0, green: 241/255.0, blue: 244/255.0, alpha: 1)
 
 //iPhoneX
-let isIphoneX = kScreenHeight == 812 ? true : false
+let isIphoneX = kScreenHeight >= 812 ? true : false
 
 let kNavBarHeight: CGFloat = isIphoneX ? 88 : 64
 

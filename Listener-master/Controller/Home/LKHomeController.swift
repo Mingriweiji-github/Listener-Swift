@@ -18,14 +18,14 @@ class LKHomeController: UIViewController {
     func setupHomePageStyle() {
         let style = DNSPageStyle()
         style.isTitleScaleEnabled = true
-        style.isTitleViewScrollEnabled = true
+        style.isTitleViewScrollEnabled = false
         style.isShowBottomLine = true
         style.titleColor = UIColor.gray
         style.titleSelectedColor = UIColor.red
         style.bottomLineColor = UIColor.red
         style.bottomLineHeight = 2
         
-        let titles = ["推荐","分类","VIP","直播","广播"]
+        let titles = ["推荐","分类","得到VIP","直播","广播"]
         let viewControllers:[UIViewController] = [LKHomeRecommandController(),LKHomeClassifyController(),LKHomeVIPController(),LKHomeLiveController(),LKHomeBroadCastController()]
         for vc in viewControllers {
             self.addChild(vc)
