@@ -33,6 +33,11 @@
 		50A03CD52268607D009A86F6 /* LKListenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD42268607D009A86F6 /* LKListenController.swift */; };
 		50A03CD7226860A4009A86F6 /* LKMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD6226860A4009A86F6 /* LKMineController.swift */; };
 		50A03CD922686914009A86F6 /* LKPlayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CD822686914009A86F6 /* LKPlayContentView.swift */; };
+		50A03CDB2269B1BA009A86F6 /* LKHomeRecommandHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CDA2269B1BA009A86F6 /* LKHomeRecommandHeaderView.swift */; };
+		50A03CDD2269B37D009A86F6 /* LKHomeRecommandFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CDC2269B37D009A86F6 /* LKHomeRecommandFooterView.swift */; };
+		50A03CDF2269BC5B009A86F6 /* LKHomeBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CDE2269BC5B009A86F6 /* LKHomeBannerCell.swift */; };
+		50A03CE12269C037009A86F6 /* LKHomeGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CE02269C037009A86F6 /* LKHomeGridCell.swift */; };
+		50A03CE62269C43A009A86F6 /* LKHomeGuessYouLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03CE52269C43A009A86F6 /* LKHomeGuessYouLike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +68,11 @@
 		50A03CD42268607D009A86F6 /* LKListenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKListenController.swift; sourceTree = "<group>"; };
 		50A03CD6226860A4009A86F6 /* LKMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKMineController.swift; sourceTree = "<group>"; };
 		50A03CD822686914009A86F6 /* LKPlayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPlayContentView.swift; sourceTree = "<group>"; };
+		50A03CDA2269B1BA009A86F6 /* LKHomeRecommandHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeRecommandHeaderView.swift; sourceTree = "<group>"; };
+		50A03CDC2269B37D009A86F6 /* LKHomeRecommandFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeRecommandFooterView.swift; sourceTree = "<group>"; };
+		50A03CDE2269BC5B009A86F6 /* LKHomeBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeBannerCell.swift; sourceTree = "<group>"; };
+		50A03CE02269C037009A86F6 /* LKHomeGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeGridCell.swift; sourceTree = "<group>"; };
+		50A03CE52269C43A009A86F6 /* LKHomeGuessYouLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeGuessYouLike.swift; sourceTree = "<group>"; };
 		D137A9B87E8231A70C11C9D2 /* Pods-Listener-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listener-master.debug.xcconfig"; path = "Target Support Files/Pods-Listener-master/Pods-Listener-master.debug.xcconfig"; sourceTree = "<group>"; };
 		E2B3E07FCCC2D923D0E4523A /* Pods-Listener-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Listener-master.release.xcconfig"; path = "Target Support Files/Pods-Listener-master/Pods-Listener-master.release.xcconfig"; sourceTree = "<group>"; };
 		FC5DE4BFE15FDAA628BC0FAE /* Pods_Listener_master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Listener_master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -360,6 +370,11 @@
 		50A03CB622685CF3009A86F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50A03CE42269C421009A86F6 /* 猜你喜欢 */,
+				50A03CDA2269B1BA009A86F6 /* LKHomeRecommandHeaderView.swift */,
+				50A03CDC2269B37D009A86F6 /* LKHomeRecommandFooterView.swift */,
+				50A03CDE2269BC5B009A86F6 /* LKHomeBannerCell.swift */,
+				50A03CE02269C037009A86F6 /* LKHomeGridCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -466,6 +481,14 @@
 			children = (
 			);
 			path = AIP;
+			sourceTree = "<group>";
+		};
+		50A03CE42269C421009A86F6 /* 猜你喜欢 */ = {
+			isa = PBXGroup;
+			children = (
+				50A03CE52269C43A009A86F6 /* LKHomeGuessYouLike.swift */,
+			);
+			path = "猜你喜欢";
 			sourceTree = "<group>";
 		};
 		65FE6584C6D4015328FF283B /* Frameworks */ = {
@@ -636,6 +659,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5055451A22682C2C0054A219 /* LKBasicContentView.swift in Sources */,
+				50A03CDB2269B1BA009A86F6 /* LKHomeRecommandHeaderView.swift in Sources */,
+				50A03CDD2269B37D009A86F6 /* LKHomeRecommandFooterView.swift in Sources */,
 				5055451C2268406A0054A219 /* LKBouncesContentView.swift in Sources */,
 				50A03CD32268604F009A86F6 /* LKFindController.swift in Sources */,
 				50A03CBF22685D24009A86F6 /* LKHomeRecommandController.swift in Sources */,
@@ -647,6 +672,7 @@
 				50A03CCF22685F29009A86F6 /* LKHomeClassifyController.swift in Sources */,
 				50A03CD122685FC4009A86F6 /* LKHomeBroadCastController.swift in Sources */,
 				50A03CD922686914009A86F6 /* LKPlayContentView.swift in Sources */,
+				50A03CDF2269BC5B009A86F6 /* LKHomeBannerCell.swift in Sources */,
 				505545182268276C0054A219 /* WRCycleCell.swift in Sources */,
 				5055450C226826A60054A219 /* LKNavigationController.swift in Sources */,
 				50A03CD52268607D009A86F6 /* LKListenController.swift in Sources */,
@@ -655,7 +681,9 @@
 				50A03CA522685AF9009A86F6 /* LKHomeController.swift in Sources */,
 				50A03CCB22685ECF009A86F6 /* LKHomeVIPController.swift in Sources */,
 				50A03CD7226860A4009A86F6 /* LKMineController.swift in Sources */,
+				50A03CE12269C037009A86F6 /* LKHomeGridCell.swift in Sources */,
 				50554504226824460054A219 /* LKHeader.swift in Sources */,
+				50A03CE62269C43A009A86F6 /* LKHomeGuessYouLike.swift in Sources */,
 				505545162268276C0054A219 /* WRProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
